@@ -23,7 +23,7 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, "dist"), // Путь к статическим файлам
+      directory: path.join(__dirname, "public"), // Путь к статическим файлам
     },
     compress: true,
     port: 3000,
